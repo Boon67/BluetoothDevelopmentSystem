@@ -1,0 +1,18 @@
+{
+    "event_definition": {
+        "def_keys": [
+            "collectionId",
+            "collectionName"
+        ],
+        "def_module": "Data",
+        "def_name": "ItemCreated",
+        "visibility": true
+    },
+    "key_value_pairs": {
+        "collectionId": "babe9fb40b9ccbb2e1fd9690d968",
+        "collectionName": "firmware"
+    },
+    "name": "firmwareUpdated",
+    "namespace": "",
+    "service_name": "message_firmwareMonitor"
+}
