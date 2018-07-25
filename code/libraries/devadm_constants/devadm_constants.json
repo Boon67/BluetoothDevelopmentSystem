@@ -1,0 +1,9 @@
+{
+    "api": "",
+    "dependencies": "",
+    "description": "This library holds constants associated with the Device Administrator functionality",
+    "name": "devadm_constants",
+    "namespace": "",
+    "version": 1,
+    "visibility": "system"
+}
