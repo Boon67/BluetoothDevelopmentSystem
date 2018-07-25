@@ -1,0 +1,9 @@
+{
+    "api": "",
+    "dependencies": "",
+    "description": "Global Library Constants and Functions",
+    "name": "globals",
+    "namespace": "",
+    "version": 1,
+    "visibility": "system"
+}
