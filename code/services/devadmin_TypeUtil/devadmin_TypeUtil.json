@@ -1,0 +1,19 @@
+{
+    "auto_restart": false,
+    "concurrency": 0,
+    "current_version": 26,
+    "dependencies": "log,clearblade,http,devadm_constants,devadm_util_lib",
+    "execution_timeout": 600,
+    "logging_enabled": "true",
+    "name": "devadmin_TypeUtil",
+    "params": [
+        "{}"
+    ],
+    "permissions": {
+        "Administrator": 1,
+        "devadm PortalEditor": 1,
+        "devadm User": 1
+    },
+    "run_user": "",
+    "source": "devadmin_TypeUtil.js"
+}
