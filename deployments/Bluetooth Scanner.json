@@ -1,0 +1,89 @@
+{
+    "assets": [
+        {
+            "asset_class": "adaptors",
+            "asset_id": "BLE_Scanner",
+            "deployment": "Bluetooth Scanner",
+            "member": "Bluetooth Scanner_deployment_edge_group",
+            "sync": true
+        },
+        {
+            "asset_class": "dev_admin_devicetypes",
+            "asset_id": "",
+            "deployment": "Bluetooth Scanner",
+            "member": "Bluetooth Scanner_deployment_edge_group",
+            "sync": true
+        },
+        {
+            "asset_class": "services",
+            "asset_id": "clearMessageQueues",
+            "deployment": "Bluetooth Scanner",
+            "member": "Bluetooth Scanner_deployment_edge_group",
+            "sync": true
+        },
+        {
+            "asset_class": "services",
+            "asset_id": "_processBLEDataMessage",
+            "deployment": "Bluetooth Scanner",
+            "member": "Bluetooth Scanner_deployment_edge_group",
+            "sync": true
+        },
+        {
+            "asset_class": "timers",
+            "asset_id": "clearMessageQueues",
+            "deployment": "Bluetooth Scanner",
+            "member": "Bluetooth Scanner_deployment_edge_group",
+            "sync": true
+        },
+        {
+            "asset_class": "triggers",
+            "asset_id": "processBLEDataMessage",
+            "deployment": "Bluetooth Scanner",
+            "member": "Bluetooth Scanner_deployment_edge_group",
+            "sync": true
+        },
+        {
+            "asset_class": "adaptors",
+            "asset_id": "EdgeManager",
+            "deployment": "Bluetooth Scanner",
+            "member": "Bluetooth Scanner_deployment_edge_group",
+            "sync": true
+        },
+        {
+            "asset_class": "dev_whitelist",
+            "asset_id": "",
+            "deployment": "Bluetooth Scanner",
+            "member": "Bluetooth Scanner_deployment_edge_group",
+            "sync": true
+        },
+        {
+            "asset_class": "device_data",
+            "asset_id": "",
+            "deployment": "Bluetooth Scanner",
+            "member": "Bluetooth Scanner_deployment_edge_group",
+            "sync": false
+        },
+        {
+            "asset_class": "libraries",
+            "asset_id": "qLib",
+            "deployment": "Bluetooth Scanner",
+            "member": "Bluetooth Scanner_deployment_edge_group",
+            "sync": true
+        },
+        {
+            "asset_class": "devices",
+            "asset_id": "",
+            "deployment": "Bluetooth Scanner",
+            "member": "Bluetooth Scanner_deployment_edge_group",
+            "sync": true
+        }
+    ],
+    "description": "Bluetooth Scanning System",
+    "edges": [
+        "edge3",
+        "BD_SD_TestGW",
+        "BD_SD_PI_GW",
+        "michaelEdgeRpi"
+    ],
+    "name": "Bluetooth Scanner"
+}
