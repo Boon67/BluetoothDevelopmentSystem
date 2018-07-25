@@ -1,0 +1,10 @@
+{
+    "adaptor_name": "BLE_Scanner",
+    "group": "",
+    "name": "undeploy.sh",
+    "namespace": "",
+    "owner": "",
+    "path_name": "undeploy.sh",
+    "permissions": "",
+    "version": 2
+}
