@@ -1,0 +1,47 @@
+{
+    "app_id": "aab189b30bcaf7b4fdd991aff210",
+    "collection_id": "babe9fb40b9ccbb2e1fd9690d968",
+    "items": [],
+    "name": "firmware",
+    "permissions": {
+        "Administrator": 15,
+        "edgeInfo": 1
+    },
+    "schema": [
+        {
+            "ColumnName": "item_id",
+            "ColumnType": "uuid",
+            "PK": true
+        },
+        {
+            "ColumnName": "filename",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "filecontent",
+            "ColumnType": "blob",
+            "PK": false
+        },
+        {
+            "ColumnName": "fileversion",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "description",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "os",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "architecture",
+            "ColumnType": "string",
+            "PK": false
+        }
+    ]
+}
