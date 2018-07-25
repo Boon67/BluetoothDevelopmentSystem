@@ -1,0 +1,13 @@
+{
+    "columns": [
+        {
+            "ColumnName": "user_id",
+            "ColumnType": "string",
+            "PK": true
+        }
+    ],
+    "permissions": {
+        "devadm PortalEditor": 1,
+        "devadm User": 1
+    }
+}
