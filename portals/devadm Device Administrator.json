@@ -1,0 +1,1154 @@
+{
+    "config": {
+        "cols": {
+            "lg": 12,
+            "md": 10,
+            "sm": 6,
+            "xs": 4,
+            "xxs": 2
+        },
+        "currentBreakpointForFlyoutWidgets": "lg",
+        "currentBreakpointForPanes": "lg",
+        "currentBreakpointsForWidgets": {
+            "3365198c-1afe-4fd7-92f5-c130d015ff09": "sm",
+            "5d55ec90-14b8-44f9-b4d9-e9d87335bba4": "lg",
+            "9ee85af4-751b-44e1-964d-7617327e78f8": "lg",
+            "da155b44-cf55-42e8-8d0b-7209d841e84d": "lg"
+        },
+        "datasources": {
+            "295e8ee5-3172-4f90-924e-b73b3ae48a1a": {
+                "id": "295e8ee5-3172-4f90-924e-b73b3ae48a1a",
+                "name": "SelectedDeviceType",
+                "settings": {},
+                "type": "LOCAL_DATASOURCE_PLUGIN"
+            },
+            "6ca254cc-49de-4dcf-9164-3e841d1a930a": {
+                "id": "6ca254cc-49de-4dcf-9164-3e841d1a930a",
+                "name": "dev_admin_devicetypes",
+                "settings": {
+                    "CALL_ON_LOAD": true,
+                    "SUPPRESS_DATASOURCE_ERRORS": false,
+                    "collection_name": "dev_admin_devicetypes",
+                    "refresh_interval": 0
+                },
+                "type": "CB_COLLECTION"
+            },
+            "8b345411-7800-42da-bb47-d3d0dbb51528": {
+                "id": "8b345411-7800-42da-bb47-d3d0dbb51528",
+                "name": "selectedDevice",
+                "settings": {},
+                "type": "LOCAL_DATASOURCE_PLUGIN"
+            },
+            "8e734fab-e59a-4c38-add5-eaba0edab5d9": {
+                "id": "8e734fab-e59a-4c38-add5-eaba0edab5d9",
+                "name": "devadmGetAllUsers",
+                "settings": {
+                    "CALL_ON_LOAD": true,
+                    "SUPPRESS_DATASOURCE_ERRORS": false,
+                    "code_name": "devadmGetAllUsers",
+                    "payload": "{}",
+                    "refresh_interval": 0
+                },
+                "type": "CB_CODE_SERVICE"
+            },
+            "8f7d564c-af83-45bf-a776-dd750fe4314f": {
+                "id": "8f7d564c-af83-45bf-a776-dd750fe4314f",
+                "name": "devadmUpdateDevice",
+                "settings": {
+                    "CALL_ON_LOAD": true,
+                    "SUPPRESS_DATASOURCE_ERRORS": false,
+                    "code_name": "devadmUpdateDevice",
+                    "payload": "{}",
+                    "refresh_interval": 0
+                },
+                "type": "CB_CODE_SERVICE"
+            },
+            "9aca7494-950f-4b9f-ab29-cb979dc11b08": {
+                "id": "9aca7494-950f-4b9f-ab29-cb979dc11b08",
+                "name": "DeviceList",
+                "settings": {
+                    "CALL_ON_LOAD": true,
+                    "SUPPRESS_DATASOURCE_ERRORS": false,
+                    "refresh_interval": 0
+                },
+                "type": "CB_DEVICE_LIST"
+            },
+            "be07710b-0a59-4b10-9468-9e104ed9c350": {
+                "id": "be07710b-0a59-4b10-9468-9e104ed9c350",
+                "name": "devadmMessageUtil",
+                "settings": {
+                    "CALL_ON_LOAD": true,
+                    "SUPPRESS_DATASOURCE_ERRORS": false,
+                    "code_name": "devadmMessageUtil",
+                    "payload": "{}",
+                    "refresh_interval": 0
+                },
+                "type": "CB_CODE_SERVICE"
+            },
+            "ef536f52-009a-4a71-a602-e524f22a7706": {
+                "id": "ef536f52-009a-4a71-a602-e524f22a7706",
+                "name": "devadmin_TypeUtil",
+                "settings": {
+                    "CALL_ON_LOAD": false,
+                    "SUPPRESS_DATASOURCE_ERRORS": false,
+                    "code_name": "devadmin_TypeUtil",
+                    "payload": "{}",
+                    "refresh_interval": 0
+                },
+                "type": "CB_CODE_SERVICE"
+            }
+        },
+        "externalScripts": [
+            {
+                "promise": {},
+                "shouldBlockAllWidgets": false,
+                "url": "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+            },
+            {
+                "promise": {},
+                "shouldBlockAllWidgets": false,
+                "url": "https://use.fontawesome.com/releases/v5.0.10/css/all.css"
+            }
+        ],
+        "flyoutWidgetLayout": {
+            "lg": [
+                {
+                    "h": 9,
+                    "i": "9005b718-b75f-4a56-baf1-943abb1f96b0",
+                    "minH": 3,
+                    "moved": false,
+                    "static": false,
+                    "w": 2,
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "h": 9,
+                    "i": "b290da4b-adb3-4f48-b998-096237c5ff11",
+                    "minH": 3,
+                    "moved": false,
+                    "static": false,
+                    "w": 2,
+                    "x": 0,
+                    "y": 18
+                },
+                {
+                    "h": 9,
+                    "i": "1c820a39-01a9-4cdd-9355-c8c974f47d10",
+                    "minH": 3,
+                    "moved": false,
+                    "static": false,
+                    "w": 2,
+                    "x": 0,
+                    "y": 9
+                }
+            ],
+            "md": [],
+            "sm": [],
+            "xs": [
+                {
+                    "h": 28,
+                    "i": "9005b718-b75f-4a56-baf1-943abb1f96b0",
+                    "minH": 3,
+                    "moved": false,
+                    "static": false,
+                    "w": 3,
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "h": 9,
+                    "i": "b290da4b-adb3-4f48-b998-096237c5ff11",
+                    "minH": 3,
+                    "moved": false,
+                    "static": false,
+                    "w": 2,
+                    "x": 0,
+                    "y": 37
+                },
+                {
+                    "h": 9,
+                    "i": "1c820a39-01a9-4cdd-9355-c8c974f47d10",
+                    "minH": 3,
+                    "moved": false,
+                    "static": false,
+                    "w": 2,
+                    "x": 0,
+                    "y": 28
+                }
+            ],
+            "xxs": [
+                {
+                    "h": 15,
+                    "i": "9005b718-b75f-4a56-baf1-943abb1f96b0",
+                    "minH": 3,
+                    "moved": false,
+                    "static": false,
+                    "w": 2,
+                    "x": 0,
+                    "y": 3
+                },
+                {
+                    "h": 4,
+                    "i": "b290da4b-adb3-4f48-b998-096237c5ff11",
+                    "minH": 3,
+                    "moved": false,
+                    "static": false,
+                    "w": 2,
+                    "x": 0,
+                    "y": 18
+                },
+                {
+                    "h": 3,
+                    "i": "1c820a39-01a9-4cdd-9355-c8c974f47d10",
+                    "minH": 3,
+                    "moved": false,
+                    "static": false,
+                    "w": 2,
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        "headerWidgetLayout": {
+            "lg": [
+                {
+                    "h": 1,
+                    "i": "brand",
+                    "moved": false,
+                    "static": false,
+                    "w": 42,
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "h": 1,
+                    "i": "title",
+                    "moved": false,
+                    "static": false,
+                    "w": 46,
+                    "x": 185,
+                    "y": 0
+                }
+            ],
+            "md": [
+                {
+                    "h": 1,
+                    "i": "brand",
+                    "moved": false,
+                    "static": false,
+                    "w": 36,
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "h": 1,
+                    "i": "title",
+                    "moved": false,
+                    "static": false,
+                    "w": 39,
+                    "x": 154,
+                    "y": 0
+                }
+            ],
+            "sm": [
+                {
+                    "h": 1,
+                    "i": "brand",
+                    "moved": false,
+                    "static": false,
+                    "w": 34,
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "h": 1,
+                    "i": "title",
+                    "moved": false,
+                    "static": false,
+                    "w": 37,
+                    "x": 117,
+                    "y": 0
+                }
+            ],
+            "xs": [
+                {
+                    "h": 1,
+                    "i": "brand",
+                    "moved": false,
+                    "static": false,
+                    "w": 28,
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "h": 1,
+                    "i": "title",
+                    "moved": false,
+                    "static": false,
+                    "w": 31,
+                    "x": 71,
+                    "y": 0
+                }
+            ],
+            "xxs": [
+                {
+                    "h": 1,
+                    "i": "brand",
+                    "moved": false,
+                    "static": false,
+                    "w": 32,
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "h": 1,
+                    "i": "title",
+                    "moved": false,
+                    "static": false,
+                    "w": 33,
+                    "x": 47,
+                    "y": 0
+                }
+            ]
+        },
+        "pages": {
+            "13350d64-8517-4edc-806e-93dd6d60cb8e": {
+                "children": [],
+                "href": "",
+                "id": "13350d64-8517-4edc-806e-93dd6d60cb8e",
+                "isChild": false,
+                "name": "DeviceType",
+                "path": ""
+            },
+            "Home": {
+                "children": [],
+                "defaultValue": "",
+                "href": "",
+                "id": "Home",
+                "isChild": false,
+                "isParam": false,
+                "name": "Home",
+                "path": ""
+            }
+        },
+        "paneGridWidgetLayouts": {
+            "3365198c-1afe-4fd7-92f5-c130d015ff09": {
+                "lg": [
+                    {
+                        "h": 9,
+                        "i": "de284f53-0d48-4fc0-bf40-fb2b250f3cb5",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 9,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "md": [],
+                "sm": [
+                    {
+                        "h": 31,
+                        "i": "de284f53-0d48-4fc0-bf40-fb2b250f3cb5",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 5,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "xs": [],
+                "xxs": []
+            },
+            "5d55ec90-14b8-44f9-b4d9-e9d87335bba4": {
+                "lg": [
+                    {
+                        "h": 9,
+                        "i": "e9da0355-4f74-40ba-a543-76938baeacb4",
+                        "minH": 3,
+                        "w": 13,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "md": [],
+                "sm": [],
+                "xs": [],
+                "xxs": []
+            },
+            "9ee85af4-751b-44e1-964d-7617327e78f8": {
+                "lg": [
+                    {
+                        "h": 9,
+                        "i": "7c4972e2-df2b-4d4a-9f5e-6d6376b5e0f5",
+                        "minH": 3,
+                        "w": 1,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "md": [],
+                "sm": [],
+                "xs": [],
+                "xxs": []
+            },
+            "da155b44-cf55-42e8-8d0b-7209d841e84d": {
+                "lg": [
+                    {
+                        "h": 9,
+                        "i": "1728c3ac-b003-4159-ba10-43170437c010",
+                        "minH": 3,
+                        "w": 13,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "md": [],
+                "sm": [],
+                "xs": [],
+                "xxs": []
+            }
+        },
+        "paneLayouts": {
+            "13350d64-8517-4edc-806e-93dd6d60cb8e": {
+                "lg": [
+                    {
+                        "h": 4,
+                        "i": "8afe1a93-5503-4116-bfb5-b5017c0c1706",
+                        "moved": false,
+                        "static": false,
+                        "w": 4,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "h": 4,
+                        "i": "23a0cdb8-9c4b-4a42-99ae-2b8b9050a5b7",
+                        "moved": false,
+                        "static": false,
+                        "w": 8,
+                        "x": 4,
+                        "y": 0
+                    }
+                ],
+                "md": [],
+                "sm": [],
+                "xs": [],
+                "xxs": [
+                    {
+                        "h": 4,
+                        "i": "8afe1a93-5503-4116-bfb5-b5017c0c1706",
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "h": 4,
+                        "i": "23a0cdb8-9c4b-4a42-99ae-2b8b9050a5b7",
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 0,
+                        "y": 4
+                    }
+                ]
+            },
+            "Home": {
+                "lg": [
+                    {
+                        "h": 4,
+                        "i": "eeddc462-98df-41ca-aa86-9c191b5aebd2",
+                        "moved": false,
+                        "static": false,
+                        "w": 8,
+                        "x": 4,
+                        "y": 0
+                    },
+                    {
+                        "h": 4,
+                        "i": "07af8ff4-6fb9-4e62-ac72-314f130540ce",
+                        "moved": false,
+                        "static": false,
+                        "w": 4,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "md": [
+                    {
+                        "h": 3,
+                        "i": "eeddc462-98df-41ca-aa86-9c191b5aebd2",
+                        "moved": false,
+                        "static": false,
+                        "w": 6,
+                        "x": 4,
+                        "y": 0
+                    },
+                    {
+                        "h": 2,
+                        "i": "ff9d0cb4-32b7-46c7-949e-b2e06cfcb05c",
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 0,
+                        "y": 9
+                    },
+                    {
+                        "h": 5,
+                        "i": "07af8ff4-6fb9-4e62-ac72-314f130540ce",
+                        "moved": false,
+                        "static": false,
+                        "w": 4,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "h": 4,
+                        "i": "5c6e5bcf-7c15-4e31-91ad-187888ac6a56",
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 0,
+                        "y": 5
+                    }
+                ],
+                "sm": [
+                    {
+                        "h": 4,
+                        "i": "eeddc462-98df-41ca-aa86-9c191b5aebd2",
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "h": 2,
+                        "i": "ff9d0cb4-32b7-46c7-949e-b2e06cfcb05c",
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 0,
+                        "y": 12
+                    },
+                    {
+                        "h": 4,
+                        "i": "07af8ff4-6fb9-4e62-ac72-314f130540ce",
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 0,
+                        "y": 4
+                    },
+                    {
+                        "h": 4,
+                        "i": "5c6e5bcf-7c15-4e31-91ad-187888ac6a56",
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 0,
+                        "y": 8
+                    }
+                ],
+                "xs": [],
+                "xxs": [
+                    {
+                        "h": 4,
+                        "i": "eeddc462-98df-41ca-aa86-9c191b5aebd2",
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "h": 2,
+                        "i": "ff9d0cb4-32b7-46c7-949e-b2e06cfcb05c",
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 0,
+                        "y": 12
+                    },
+                    {
+                        "h": 4,
+                        "i": "07af8ff4-6fb9-4e62-ac72-314f130540ce",
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 0,
+                        "y": 4
+                    },
+                    {
+                        "h": 4,
+                        "i": "5c6e5bcf-7c15-4e31-91ad-187888ac6a56",
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 0,
+                        "y": 8
+                    }
+                ]
+            }
+        },
+        "panes": {
+            "07af8ff4-6fb9-4e62-ac72-314f130540ce": {
+                "customPaneId": "",
+                "header": {
+                    "hide": false,
+                    "title": "Device Info"
+                },
+                "hiddenBreakpoints": {},
+                "hideBorders": false,
+                "id": "07af8ff4-6fb9-4e62-ac72-314f130540ce",
+                "pageId": "Home",
+                "tabInfo": {
+                    "activeTab": "5d55ec90-14b8-44f9-b4d9-e9d87335bba4",
+                    "tabIds": [
+                        "5d55ec90-14b8-44f9-b4d9-e9d87335bba4"
+                    ],
+                    "tabTitles": {
+                        "5d55ec90-14b8-44f9-b4d9-e9d87335bba4": "DOUBLE CLICK"
+                    },
+                    "tabbed": false
+                },
+                "themeType": "primary"
+            },
+            "23a0cdb8-9c4b-4a42-99ae-2b8b9050a5b7": {
+                "customPaneId": "",
+                "header": {
+                    "hide": false,
+                    "title": "Type Schema"
+                },
+                "hiddenBreakpoints": {},
+                "hideBorders": false,
+                "id": "23a0cdb8-9c4b-4a42-99ae-2b8b9050a5b7",
+                "pageId": "13350d64-8517-4edc-806e-93dd6d60cb8e",
+                "tabInfo": {
+                    "activeTab": "3365198c-1afe-4fd7-92f5-c130d015ff09",
+                    "tabIds": [
+                        "3365198c-1afe-4fd7-92f5-c130d015ff09"
+                    ],
+                    "tabTitles": {
+                        "3365198c-1afe-4fd7-92f5-c130d015ff09": "DOUBLE CLICK"
+                    },
+                    "tabbed": false
+                },
+                "themeType": "primary"
+            },
+            "8afe1a93-5503-4116-bfb5-b5017c0c1706": {
+                "customPaneId": "",
+                "header": {
+                    "hide": false,
+                    "title": "Device Types"
+                },
+                "hiddenBreakpoints": {},
+                "hideBorders": false,
+                "id": "8afe1a93-5503-4116-bfb5-b5017c0c1706",
+                "pageId": "13350d64-8517-4edc-806e-93dd6d60cb8e",
+                "tabInfo": {
+                    "activeTab": "da155b44-cf55-42e8-8d0b-7209d841e84d",
+                    "tabIds": [
+                        "da155b44-cf55-42e8-8d0b-7209d841e84d"
+                    ],
+                    "tabTitles": {
+                        "da155b44-cf55-42e8-8d0b-7209d841e84d": "DOUBLE CLICK"
+                    },
+                    "tabbed": false
+                },
+                "themeType": "primary"
+            },
+            "eeddc462-98df-41ca-aa86-9c191b5aebd2": {
+                "customPaneId": "deviceAdministrator",
+                "header": {
+                    "hide": false,
+                    "title": "Device Administrator"
+                },
+                "hiddenBreakpoints": {},
+                "hideBorders": false,
+                "id": "eeddc462-98df-41ca-aa86-9c191b5aebd2",
+                "pageId": "Home",
+                "tabInfo": {
+                    "activeTab": "9ee85af4-751b-44e1-964d-7617327e78f8",
+                    "tabIds": [
+                        "9ee85af4-751b-44e1-964d-7617327e78f8"
+                    ],
+                    "tabTitles": {
+                        "9ee85af4-751b-44e1-964d-7617327e78f8": "Status"
+                    },
+                    "tabbed": false
+                },
+                "themeType": "primary"
+            }
+        },
+        "savedPortalExists": true,
+        "theme": {
+            "graph": {
+                "four": "#E8E7C6",
+                "one": "#6E8592",
+                "three": "#DBA5A8",
+                "two": "#6E93A8"
+            },
+            "info": {
+                "display_name": "Standard",
+                "name": "STANDARD_THEME"
+            },
+            "items": {
+                "main": {
+                    "header": {
+                        "burgerBars": {
+                            "fontColor": "#c6c5b9",
+                            "visible": true
+                        },
+                        "dropdown": {
+                            "fontColor": "#c6c5b9",
+                            "fontFamily": "Helvetica",
+                            "fontSize": 18
+                        },
+                        "styles": {
+                            "backgroundColor": "#cc0000"
+                        }
+                    },
+                    "panes": {
+                        "flyout": {
+                            "body": {
+                                "backgroundColor": "#c6c5b9"
+                            },
+                            "header": {
+                                "backgroundColor": "#cc0000"
+                            }
+                        },
+                        "primary": {
+                            "body": {
+                                "backgroundColor": "#c6c5b9"
+                            },
+                            "header": {
+                                "backgroundColor": "#cc0000",
+                                "fontColor": "#fff1d0",
+                                "fontFamily": "Helvetica"
+                            },
+                            "tabs": {
+                                "activeTabUnderlineColor": "#a30000",
+                                "backgroundColor": "#e68080",
+                                "fontColor": "#fff1d0"
+                            }
+                        },
+                        "secondary": {
+                            "body": {
+                                "backgroundColor": "#c6c5b9"
+                            },
+                            "header": {
+                                "backgroundColor": "#e68080",
+                                "fontColor": "#fff1d0",
+                                "fontFamily": "Helvetica"
+                            },
+                            "tabs": {
+                                "activeTabUnderlineColor": "#a30000",
+                                "backgroundColor": "#cc0000",
+                                "fontColor": "#fff1d0"
+                            }
+                        }
+                    },
+                    "portal": {
+                        "styles": {
+                            "backgroundColor": "#e3e2dc"
+                        }
+                    },
+                    "widgets": {
+                        "BAR_CHART_WIDGET_COMPONENT": {
+                            "barColors": [
+                                {
+                                    "fill": "#6E8592"
+                                },
+                                {
+                                    "fill": "#6E93A8"
+                                },
+                                {
+                                    "fill": "#DBA5A8"
+                                },
+                                {
+                                    "fill": "#E8E7C6"
+                                }
+                            ],
+                            "brushStroke": "#cc0000",
+                            "legendColor": "#393d3f"
+                        },
+                        "BUTTON_WIDGET_COMPONENT": {
+                            "backgroundColor": "#c6c5b9",
+                            "backgroundHoverColor": "#9e9e94",
+                            "borderColor": "#cccccc",
+                            "fontColor": "#393d3f"
+                        },
+                        "FILTERABLE_LIST_WIDGET_COMPONENT": {
+                            "activeFontColor": "#fff1d0",
+                            "activeItemBackgroundColor": "#cc0000",
+                            "activeItemFontColor": "#000000",
+                            "fontColor": "#393d3f",
+                            "listItemBackgroundColor": "#e3e2dc",
+                            "titleColor": "#393d3f"
+                        },
+                        "FORM_WIDGET_COMPONENT": {
+                            "cardBackgroundColor": "#c6c5b9",
+                            "fontColor": "#393d3f",
+                            "sliderColor": "#6E8592",
+                            "titleColor": "#393d3f",
+                            "toggleColor": "#6E8592"
+                        },
+                        "GOOGLE_MAP_WIDGET_COMPONENT": {
+                            "mapTheme": ""
+                        },
+                        "GROUPING_LIST_WIDGET_COMPONENT": {
+                            "activeFontColor": "#fff1d0",
+                            "activeItemBackgroundColor": "#cc0000",
+                            "activeItemFontColor": "#000000",
+                            "fontColor": "#393d3f",
+                            "listItemBackgroundColor": "#e3e2dc",
+                            "titleColor": "#393d3f"
+                        },
+                        "LINE_CHART_WIDGET_COMPONENT": {
+                            "brushStroke": "#cc0000",
+                            "legendColor": "#393d3f",
+                            "lineColors": [
+                                {
+                                    "stroke": "#6E8592"
+                                },
+                                {
+                                    "stroke": "#6E93A8"
+                                },
+                                {
+                                    "stroke": "#DBA5A8"
+                                },
+                                {
+                                    "stroke": "#E8E7C6"
+                                }
+                            ]
+                        },
+                        "LIST_WIDGET_COMPONENT": {
+                            "activeFontColor": "#fff1d0",
+                            "activeItemBackgroundColor": "#cc0000",
+                            "activeItemFontColor": "#000000",
+                            "fontColor": "#393d3f",
+                            "listItemBackgroundColor": "#e3e2dc",
+                            "titleColor": "#393d3f"
+                        },
+                        "PIE_CHART_WIDGET_COMPONENT": {
+                            "cells": [
+                                {
+                                    "fill": "#6E8592"
+                                },
+                                {
+                                    "fill": "#6E93A8"
+                                },
+                                {
+                                    "fill": "#DBA5A8"
+                                },
+                                {
+                                    "fill": "#E8E7C6"
+                                }
+                            ]
+                        },
+                        "RADIAL_GAUGE_WIDGET_COMPONENT": {
+                            "backgroundColor": "#9e9e94",
+                            "progressColor": "#cc0000"
+                        },
+                        "SPEEDOMETER_WIDGET": {
+                            "arrowColor": "#393d3f",
+                            "sectionColors": [
+                                {
+                                    "fill": "#6E8592"
+                                },
+                                {
+                                    "fill": "#6E93A8"
+                                },
+                                {
+                                    "fill": "#DBA5A8"
+                                },
+                                {
+                                    "fill": "#E8E7C6"
+                                }
+                            ]
+                        },
+                        "TEXT_WIDGET_COMPONENT": {
+                            "fontColor": "#393d3f",
+                            "fontFamily": "Helvetica",
+                            "fontSize": 18
+                        },
+                        "TOGGLE_WIDGET": {
+                            "backgroundColor": "#9e9e94",
+                            "fontColor": "#393d3f",
+                            "offColor": "#e3e2dc",
+                            "onColor": "#cc0000"
+                        }
+                    }
+                }
+            },
+            "palette": {
+                "darkPrimary": "#9e9e94",
+                "darkSecondary": "#a30000",
+                "defaultPrimary": "#c6c5b9",
+                "defaultSecondary": "#cc0000",
+                "lightPrimary": "#e3e2dc",
+                "lightSecondary": "#e68080",
+                "primaryText": "#393d3f",
+                "secondaryText": "#fff1d0"
+            }
+        },
+        "upgradesPerformed": {
+            "flyoutTitleUpgrade": true,
+            "headerBrandUpgrade": true,
+            "headerTitleUpgrade": true,
+            "widgetResizeUpgrade": true
+        },
+        "widgets": {
+            "1728c3ac-b003-4159-ba10-43170437c010": {
+                "externalScripts": [],
+                "id": "1728c3ac-b003-4159-ba10-43170437c010",
+                "props": {
+                    "html": {
+                        "dataType": "STATIC_DATA_TYPE",
+                        "force_data": [
+                            "STATIC_DATA_TYPE",
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "incoming_parser": {
+                            "isDebugOn": false,
+                            "value": "return this.datasource;"
+                        },
+                        "value": {
+                            "CSS": ".shadow-textarea textarea.form-control::placeholder {\n    font-weight: 300;\n}\n.shadow-textarea textarea.form-control {\n    padding-left: 0.8rem;\n}\n    \n.fix-size-list{\n    width:100%;\n    height: auto;\n    max-height:300px;\n    overflow-y: scroll;\n}    \n\n.jumbotron {\n  height: 30px;\n}\n\n.vertical-center \u003e .container {\n  max-width: 100%;\n  background-color: lightskyblue;\n  padding: 5px;\n  display: inline-block;\n  vertical-align: middle;  /* vertical alignment of the inline element */\n  font: 16px/1 \"Helvetica Neue\", Helvetica, Arial, sans-serif;        /* \u003c-- reset the font property */\n}",
+                            "HTML": "\u003cdiv id=\"DeviceTypeManagement\"\u003e\n\t\u003cdiv class=\"row pt-2\" id=\"device-form\"\u003e\n\t\t\u003cdiv class=\"vertical-center container\"\u003e\n\t\t\t\u003cdiv class=\"row\"\u003e\n\t\t\t\t\u003cdiv class=\"col-sm-9\"\u003e\n\t\t\t\t\t\u003ch4\u003eSelect a type\u003c/h4\u003e\n\t\t\t\t\u003c/div\u003e\n\t\t\t\t\u003cdiv class=\"col-sm-3\"\u003e\n\t\t\t\t\t\u003cdiv class=\"btn-group\" role=\"group\"\u003e\n\t\t\t\t\t\t\u003cbutton type=\"button\" id=\"refreshDeviceTypes\" class=\"btn btn-light\" onclick=\"RefreshDeviceTypeList()\"\u003e\u003ci class=\"fas fa-sync-alt\"\u003e\u003c/i\u003e\u003c/button\u003e\n\t\t\t\t\t\t\u003cbutton class=\"btn btn-success\" type=\"button\" onclick=\"addNewDeviceType()\"\u003e\u003ci class=\"fas fa-plus\"\u003e\u003c/i\u003e\u003c/button\u003e\n\t\t\t\t\t\u003c/div\u003e\n\t\t\t\t\u003c/div\u003e\n\t\t\t\u003c/div\u003e\n\t\t\u003c/div\u003e\n\t\t\u003cdiv class=\"vertical-center container\"\u003e\n\t\t\u003cdiv class=\"fix-size-list\" style=\" height:auto; overflow-x:hidden\" id=\"div-for-device-type-list\"\u003e\n\t\t\u003c/div\u003e\n\t\t\u003cdiv id=\"save-button\"\u003e\u003c/div\u003e\n\t\t\u003c/div\u003e\n\t\u003c/div\u003e\n\u003c/div\u003e",
+                            "JavaScript": "//JavaScript\nvar DS=\"dev_admin_devicetypes\";\nvar DS1=\"devadmin_TypeUtil\"\n// console.log(datasources.devadm_device_types.latestData())\ndatasources[DS].latestData.subscribe(function (data) {\n    populateDeviceTypes();\n\n})\npopulateDeviceTypes();\nfunction populateDeviceTypes() {\n    var deviceTypes = datasources[DS].latestData();\n    var innerContent = `\u003cdiv class=\"list-group\" id=\"showDeviceTypes\"\u003e\u003c/div\u003e`;\n    $('#div-for-device-type-list').empty().append(innerContent);\n    $('#showDeviceTypes').empty();\n    for (var i in deviceTypes) {\n        var typeName = deviceTypes[i].data.type;\n        var childButton = createDeviceTypeButton(typeName)\n        $('#showDeviceTypes').append(childButton);\n    }\n}\n\nfunction createDeviceTypeButton(typeName) {\n    return `\u003cdiv class=\"row\"\u003e\n        \n        \u003cbutton class=\"list-group-item form-control\" style=\"margin-left: 15px;margin-right: 15px; type=\"button\" \n            onclick=\"updateSelectedDeviceType('` + typeName + `')\"\u003e` + typeName + \n            `\n        \u003c/button\u003e\n    \u003c/div\u003e`;\n}\n\nwindow.updateSelectedDeviceType = function(typeName){\n    datasources.SelectedDeviceType.sendData(typeName);\n    // console.log(datasources.SelectedDeviceType.latestData());\n}\n\nwindow.RefreshDeviceTypeList = function(){\n    datasources[DS].refresh();\n    populateDeviceTypes();\n}\n\nwindow.addNewDeviceType = function(){\n    var childInputField = `\u003cinput class=\"list-group-item\" autofocus placeholder=\"New Type\"\u003e`\n    $('#showDeviceTypes').append(childInputField);\n    var saveButton = `\u003cbutton class=\"btn btn-success\" onclick=\"saveNewDeviceType()\"\u003eSave\u003c/button\u003e`\n    $('#save-button').empty().append(saveButton);\n}\n\nwindow.saveNewDeviceType = function(){\n    $('#save-button').empty();\n    var inputFields = $('#div-for-device-type-list').find('input');\n    newDeviceTypes = []\n    for(var i=0; i\u003c inputFields.length;i++){\n        newDeviceTypes.push(inputFields[i].value);\n    }\n    datasources[DS1].sendData({\n        path:\"create_device_type\",\n        deviceType:newDeviceTypes[0]\n    }).then(function(data){\n        datasources[DS].refresh();\n        populateDeviceTypes();\n    });\n\n}"
+                        }
+                    }
+                },
+                "tab": "da155b44-cf55-42e8-8d0b-7209d841e84d",
+                "type": "HTML_WIDGET_COMPONENT"
+            },
+            "1c820a39-01a9-4cdd-9355-c8c974f47d10": {
+                "externalScripts": [],
+                "id": "1c820a39-01a9-4cdd-9355-c8c974f47d10",
+                "props": {
+                    "html": {
+                        "dataType": "STATIC_DATA_TYPE",
+                        "force_data": [
+                            "STATIC_DATA_TYPE",
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "incoming_parser": {
+                            "isDebugOn": false,
+                            "value": "return this.datasource;"
+                        },
+                        "value": {
+                            "CSS": ".underline {\n  text-decoration: underline;\n}\n",
+                            "HTML": "\u003cdiv id=\"ManageDeviceLabel\" style=\"cursor:pointer;\" class=\"underline\"\u003e\n  \u003ch4\u003eDevices\u003c/h4\u003e\n\u003c/div\u003e\n",
+                            "JavaScript": "//JavaScript\n\n$(\"#ManageDeviceLabel\").click(function(){\n    if (window.currentPortalPage !=\"/Home\"){\n        CB_PORTAL.selectPage(\"/Home\"); \n        window.currentPortalPage = \"/Home\"; \n    }\n    \n})"
+                        }
+                    }
+                },
+                "tab": null,
+                "type": "HTML_WIDGET_COMPONENT"
+            },
+            "7c4972e2-df2b-4d4a-9f5e-6d6376b5e0f5": {
+                "externalScripts": [
+                    "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js",
+                    "https://use.fontawesome.com/releases/v5.0.10/css/all.css"
+                ],
+                "id": "7c4972e2-df2b-4d4a-9f5e-6d6376b5e0f5",
+                "props": {
+                    "html": {
+                        "dataType": "DYNAMIC_DATA_TYPE",
+                        "force_data": [
+                            "STATIC_DATA_TYPE",
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "id": "8b345411-7800-42da-bb47-d3d0dbb51528",
+                        "incoming_parser": {
+                            "isDebugOn": false,
+                            "value": {
+                                "CSS": ".shadow-textarea textarea.form-control::placeholder {\n    font-weight: 300;\n}\n.shadow-textarea textarea.form-control {\n    padding-left: 0.8rem;\n}\n    \n.fix-size-list{\n    width:100%;\n    max-height:500px;\n    overflow-y: scroll;\n}    \n\n.jumbotron {\n  height: 30px;\n}\n\n#device-form {\n  padding: 10px 10px;\n}\n\n.vertical-center \u003e .container {\n  max-width: 100%;\n  background-color: lightskyblue;\n  padding: 5px;\n  display: inline-block;\n  vertical-align: middle;  /* vertical alignment of the inline element */\n  font: 16px/1 \"Helvetica Neue\", Helvetica, Arial, sans-serif;        /* \u003c-- reset the font property */\n}",
+                                "HTML": "\u003cdiv class=\"vertical-center\"\u003e\n    \u003c!-- \u003cdiv class=\"container text-center\"\u003e\n        \u003ch1\u003eDevice Status\u003c/h1\u003e\n    \u003c/div\u003e --\u003e\n    \u003cdiv class=\"row pt-1\" id=\"device-form\"\u003e\n        \u003cdiv class=\"col-md-7\"\u003e\n            \u003cdiv class=\"vertical-center container\"\u003e\n                \u003cdiv class=\"row\"\u003e\n                    \u003cdiv class=\"col-sm-10\"\u003e\n                        \u003cspan\u003eDevice \u003c/span\u003e\n                        \u003cselect id=\"messageTypeSelect\"\u003e\n                            \u003coption value=\"status\"\u003eStatus\u003c/option\u003e\n                            \u003coption value=\"control\"\u003eControl\u003c/option\u003e\n                        \u003c/select\u003e\n                        \u003cspan\u003eMessage History: \u003c/span\u003e\n                    \u003c/div\u003e\n                    \u003cdiv class=\"col-sm-2\"\u003e\n                        \u003cbutton type=\"button\" id=\"refreshMessageButton\" class=\"btn btn-light\" onclick=\"RefreshCurrentTab()\"\u003e\u003ci class=\"fas fa-sync-alt\"\u003e\u003c/i\u003e\u003c/button\u003e\n                    \u003c/div\u003e\n                \u003c/div\u003e\n            \u003c/div\u003e\n            \u003cdiv class=\"fix-size-list\" id=\"div-for-message-list\"\u003e\n            \u003c/div\u003e\n        \u003c/div\u003e\n\n        \u003cdiv class=\"col-md-5\"\u003e\n            \n            \u003cdiv id=\"messageDiv\" class=\"form-group shadow-textarea\"\u003e\n                \u003clabel for=\"showMesssageDetails\"\u003e\n                    \u003cdiv\u003e Details\u003c/div\u003e\n                \u003c/label\u003e\n                \u003ctextarea class=\"form-control\" id=\"showMessageDetails\" rows=\"18\" placeholder=\"Message details here...\"\u003e\u003c/textarea\u003e\n                \u003cbutton type=\"button\" id=\"resendMessageButton\" class=\"btn btn-success\" style=\"float:right; margin:8px;\" onclick=\"resendThisMessage()\"\u003e\n                    \u003cspan class=\"glyphicon glyphicon-repeat\"\u003e\u003c/span\u003ePublish / Republish\u003c/button\u003e\n                \u003cbutton type=\"button\" id=\"deleteMessageButton\" class=\"btn btn-danger\" style=\"float:right; margin:8px;\" onclick=\"deleteThisMessage()\"\u003e\u003ci class=\"fas fa-trash-alt\"\u003e\u003c/i\u003e\u003c/button\u003e\n\n            \u003c/div\u003e\n        \u003c/div\u003e\n    \u003c/div\u003e\n\u003c/div\u003e",
+                                "JavaScript": "//JavaScript\nvar messageHistoryForSelectedDevice;\nvar currSelectedMessageId = null;\n\n\n$(\"#messageTypeSelect\").change(function(){\n    showMessageHistory();\n});\n\n    \n\nshowMessageHistory();\n\n\n\nfunction showMessageHistory() {\n    var currDevice = datasources.selectedDevice.latestData();\n    currSelectedMessageId = null;\n    $('#headingTag').html(\"Device Message History for \" + currDevice.name);\n    var messageType = $(\"#messageTypeSelect\").val();\n    var statusTopic = [\"devices\", currDevice.name, messageType].join('/');\n\n    datasources.devadmMessageUtil.sendData({\n        messageTopic: statusTopic,\n        path:\"get_topic_history\"\n    }).then(function (data) {\n        var innerContent = `\u003cdiv\u003e\u003cdiv class=\"list-group\" id=\"showDeviceHistory\"\u003e\u003c/div\u003e\u003c/div\u003e`;\n        $('#div-for-message-list').empty().append(innerContent);\n        messageHistoryForSelectedDevice = data.results.result;\n        var userIdToEmail = {};\n        datasources.devadmGetAllUsers.sendData({}).then(function (data) {\n            var users = data.results.Data;\n            for (var i in users) {\n                userIdToEmail[users[i][\"user_id\"]] = users[i][\"email\"];\n            }\n            $('#showDeviceHistory').empty();\n            for (var i in messageHistoryForSelectedDevice) {\n                var childButtonData = getMessageButtonData(messageHistoryForSelectedDevice[i], userIdToEmail);\n                var childButton = createMessageButton(messageHistoryForSelectedDevice[i], i, childButtonData)\n                $('#showDeviceHistory').prepend(childButton);\n            }\n\n        });\n    });\n}\n\nfunction createMessageButton(messageForDevice, i, childButtonData) {\n    return `\u003cbutton class=\"list-group-item waves-effect\" type=\"button\" onclick=\"showCompleteMessage(` + i + `)\"\u003e` + childButtonData + `\u003c/button\u003e`;\n}\n\nfunction getMessageButtonData(messageForDevice, userIdToEmail) {\n    var dateFromEpochInSeconds = parseInt(messageForDevice[\"send-date\"]);\n    var d = new Date(0);\n    d.setUTCSeconds(dateFromEpochInSeconds);\n    var timeStamp = d.toString().split(\"GMT\")[0];\n    var deviceUserId = messageForDevice[\"user-id\"];\n    var UserEmail = userIdToEmail[deviceUserId];\n    var childButtonData = UserEmail + \" \" + timeStamp;\n    return childButtonData;\n}\n\n\nfunction getUserIdToEmailMap() {\n    return userIdToEmail;\n}\n\nwindow.RefreshCurrentTab = function () {\n    showMessageHistory();\n}\n\nwindow.showCompleteMessage = function (id) {\n    document.getElementById('messageDiv').setAttribute('class', 'block');\n    $(\"#messageDiv\").show();\n    var mesgObj = JSON.parse(messageHistoryForSelectedDevice[id][\"message\"]);\n    var messageContent = JSON.stringify(mesgObj, undefined, 4);\n    $(\"textarea#showMessageDetails\").val(messageContent);\n    document.getElementById('deleteMessageButton').disabled = false;\n    currSelectedMessageId = id;\n}\n\nwindow.deleteThisMessage = function () {\n    var deviceName = datasources.selectedDevice.latestData().name;\n    var messageType = $(\"#messageTypeSelect\").val();\n    var topic = [\"devices\", deviceName, messageType].join('/');\n    var messageTimeStamp = messageHistoryForSelectedDevice[currSelectedMessageId][\"send-date\"];\n    datasources.devadmMessageUtil.sendData({\n        \"path\":\"delete_message\",\n        \"messageTopic\": topic,\n        \"timeStampToDelete\": messageTimeStamp\n    }).then(function (err, r) {\n        if (err) {\n            console.log(err);\n        }\n        else {\n            toaster.show(\"Success\");\n            //console.log(JSON.stringify(r));\n        }\n    });\n    document.getElementById('showMessageDetails').innerHTML = \"\";\n    document.getElementById('deleteMessageButton').disabled = true;\n    setTimeout(function(){ showMessageHistory() }, 500);\n}\n\nfunction removeElement(elementId) {\n\n    try {\n        var element = document.getElementById(elementId);\n        element.parentNode.removeChild(element);\n    }\n    catch (e) {\n\n    }\n}\n\nwindow.resendThisMessage = function () {\n    var payload = JSON.parse(document.getElementById(\"showMessageDetails\").value);\n    var currDevice = datasources.selectedDevice.latestData();\n    var messageType = $(\"#messageTypeSelect\").val();\n    var statusTopic = [\"devices\", currDevice.name, messageType].join('/');\n    datasources.devadmMessageUtil.sendData({\n        \"path\":\"publish_message\",\n        \"messageTopic\": statusTopic,\n        \"payload\": payload\n    }).then(setTimeout(function(){ showMessageHistory() }, 500));\n\n\n}"
+                            }
+                        }
+                    }
+                },
+                "tab": "9ee85af4-751b-44e1-964d-7617327e78f8",
+                "type": "HTML_WIDGET_COMPONENT"
+            },
+            "9005b718-b75f-4a56-baf1-943abb1f96b0": {
+                "externalScripts": [],
+                "id": "9005b718-b75f-4a56-baf1-943abb1f96b0",
+                "props": {
+                    "HAS_UNIQUE_STYLE": false,
+                    "activeFontColor": "#fff1d0",
+                    "activeItemBackgroundColor": "#cc0000",
+                    "allowSearch": true,
+                    "displayAttribute": "name",
+                    "eventTarget": {
+                        "dataType": "DYNAMIC_DATA_TYPE",
+                        "force_data": [
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "id": "8b345411-7800-42da-bb47-d3d0dbb51528",
+                        "outgoing_parser": {
+                            "isDebugOn": false,
+                            "value": "if (window.currentPortalPage !=\"/Home\"){\n    CB_PORTAL.selectPage(\"/Home\"); \n    window.currentPortalPage = \"/Home\"; \n}\nreturn this.widget;"
+                        }
+                    },
+                    "fontColor": "#393d3f",
+                    "groupByAttributes": [
+                        "type",
+                        null
+                    ],
+                    "listItemBackgroundColor": "#e3e2dc",
+                    "listSource": {
+                        "dataType": "DYNAMIC_DATA_TYPE",
+                        "force_data": [
+                            "DYNAMIC_DATA_TYPE",
+                            "STATIC_DATA_TYPE"
+                        ],
+                        "id": "9aca7494-950f-4b9f-ab29-cb979dc11b08",
+                        "incoming_parser": {
+                            "isDebugOn": false,
+                            "value": "\nreturn this.datasource;"
+                        }
+                    },
+                    "listTitle": "",
+                    "statusAttribute": "isConnected",
+                    "titleColor": "#393d3f"
+                },
+                "tab": null,
+                "type": "GROUPING_LIST_WIDGET_COMPONENT"
+            },
+            "b290da4b-adb3-4f48-b998-096237c5ff11": {
+                "externalScripts": [],
+                "id": "b290da4b-adb3-4f48-b998-096237c5ff11",
+                "props": {
+                    "html": {
+                        "dataType": "STATIC_DATA_TYPE",
+                        "force_data": [
+                            "STATIC_DATA_TYPE",
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "incoming_parser": {
+                            "isDebugOn": false,
+                            "value": "return this.datasource;"
+                        },
+                        "value": {
+                            "CSS": ".btn {text-align: left}",
+                            "HTML": "\u003cdiv id=\"ManageDeviceTypesLabel\" class=\"underline\" style=\"cursor:pointer;\"\u003e\u003ch4\u003eManage Device Types\u003c/h4\u003e\u003c/div\u003e\n",
+                            "JavaScript": "//JavaScript\n\n$(\"#ManageDeviceTypesLabel\").click(function(){\n    CB_PORTAL.selectPage(\"/DeviceType\")\n    window.currentPortalPage = \"/DeviceType\"; \n})"
+                        }
+                    }
+                },
+                "tab": null,
+                "type": "HTML_WIDGET_COMPONENT"
+            },
+            "brand": {
+                "externalScripts": [],
+                "id": "brand",
+                "props": {
+                    "HAS_UNIQUE_STYLE": true,
+                    "fontColor": "#fff",
+                    "fontFamily": "Helvetica",
+                    "fontSize": 18,
+                    "textContent": {
+                        "dataType": "STATIC_DATA_TYPE",
+                        "value": "ClearBlade"
+                    }
+                },
+                "tab": "HEADER",
+                "type": "TEXT_WIDGET_COMPONENT"
+            },
+            "de284f53-0d48-4fc0-bf40-fb2b250f3cb5": {
+                "externalScripts": [],
+                "id": "de284f53-0d48-4fc0-bf40-fb2b250f3cb5",
+                "props": {
+                    "html": {
+                        "dataType": "DYNAMIC_DATA_TYPE",
+                        "force_data": [
+                            "STATIC_DATA_TYPE",
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "id": "295e8ee5-3172-4f90-924e-b73b3ae48a1a",
+                        "incoming_parser": {
+                            "isDebugOn": false,
+                            "value": {
+                                "CSS": "\n.vertical-center \u003e .container {\n  max-width: 100%;\n  background-color: lightskyblue;\n  padding: 5px;\n  display: inline-block;\n  vertical-align: middle;  /* vertical alignment of the inline element */\n  font: 16px/1 \"Helvetica Neue\", Helvetica, Arial, sans-serif;        /* \u003c-- reset the font property */\n}\n\n /* .list-group-item {\n    position: relative;\n    display: block;\n    padding: .25rem .25rem;\n    margin-bottom: -1px;\n    background-color: #fff;\n    border: 1px solid rgba(0,0,0,.125);\n}  */",
+                                "HTML": "\u003cdiv class=\"vertical-center\"\u003e\n\t\u003cdiv class=\"row pt-1\" id=\"device-type-form\"\u003e\n\t\t\u003cdiv class=\"col-md-12\"\u003e\n\t\t\t\u003cdiv class=\"vertical-center container\"\u003e\n\t\t\t\t\u003cdiv class=\"row\"\u003e\n\t\t\t\t\t\u003cdiv class=\"col-sm-9\"\u003e\n\t\t\t\t\t\t\u003cdiv id=\"schemadef\"\u003eSchema Definition\u003c/div\u003e\n\t\t\t\t\t\u003c/div\u003e\n\t\t\t\t\t\u003cdiv class=\"col-sm-3\"\u003e\n\t\t\t\t\t\t\u003cdiv class=\"btn-group\" role=\"group\"\u003e\n\t\t\t\t\t\t\t\u003cbutton type=\"button\" id=\"refreshDeviceTypeSchema\" class=\"btn btn-light\" onclick=\"RefreshDeviceTypeSchema()\"\u003e\n                                \u003ci class=\"fas fa-sync-alt\"\u003e\u003c/i\u003e\n                            \u003c/button\u003e\n\t\t\t\t\t\t\t\u003cbutton class=\"btn btn-success\" type=\"button\" onclick=\"AddAtrributeToSchema()\"\u003e\n                                \u003ci class=\"fas fa-plus\"\u003e\u003c/i\u003e\n                            \u003c/button\u003e\n\t\t\t\t\t\t\t\u003cbutton type=\"button\" id=\"deleteDeviceTypeButton\" class=\"btn btn-danger\" style=\"float:right\"\u003e\n\t\t\t\t\t\t\t\t\u003ci class=\"fas fa-trash-alt\"\u003e\u003c/i\u003e\n\t\t\t\t\t\t\t\u003c/button\u003e\n\t\t\t\t\t\t\u003c/div\u003e\n\t\t\t\t\t\u003c/div\u003e\n\t\t\t\t\u003c/div\u003e\n\t\t\t\u003c/div\u003e\n\t\t\t\u003cdiv class=\"row\"\u003e\n\t\t\t\t\u003cdiv class=\"pl-2\" id=\"div-for-attribute-list\"\u003e\n\t\t\t\t\u003c/div\u003e\n\t\t\t\u003c/div\u003e\n\t\t\t\u003cdiv class=\"text-right pt-2\"\u003e\n          \u003cbutton type=\"button\" id=\"UpdateDeviceTypeSchema\" class=\"btn btn-success\" onclick=\"UpdateDeviceTypeSchema()\"\u003eUpdate\u003c/button\u003e\t\n\t\t\u003c/div\u003e\n\t\t\u003c/div\u003e\n\t\u003c/div\u003e\n\u003c/div\u003e",
+                                "JavaScript": "//JavaScript\n\npopulateDeviceSchema();\nfunction populateDeviceSchema() {\n    $(\"#schemadef\")[0].innerHTML=\"Schema Definition \u003e \" + datasources.SelectedDeviceType.latestData();\n    var deviceColumns = Object.keys(datasources.selectedDevice);\n    var innerContent = `\u003cdiv\u003e\u003cdiv class=\"list-group\" id=\"showDeviceColumns\"\u003e\u003c/div\u003e\u003c/div\u003e`;\n    $('#div-for-attribute-list').empty().append(innerContent);\n    $('#showDeviceColumns').empty();\n    \n    var selectedDeviceType = datasources.SelectedDeviceType.latestData();\n    if (selectedDeviceType == null) {\n        var deviceTypeNameField = `\u003clabel class=\"col-sm-3 row\"\u003eDevice Type Name:\u003c/label\u003e\u003cinput type=\"text\" class=\"form-control col-md-5\" value=\"New Device Type\"\u003e`\n        $('#device-type-form').append(deviceTypeNameField);\n    }\n    else {\n        datasources.devadmin_TypeUtil.sendData({\n            \"path\":\"get_device_type\",\n            \"deviceType\": selectedDeviceType\n        }).then(function (data) {\n            if (data.success) {\n                var schemaJSONObj = JSON.parse(data.results.result[0].schema);\n                $('#showDeviceColumns').empty();\n                if (schemaJSONObj)\n                schemaJSONObj.forEach(function(itm) {\n                    var childButton = createDeviceSchemaRows(itm.svcid, itm.propid, itm.name, itm.type, \"checked\", \"disabled\");\n                    $('#showDeviceColumns').append(childButton);\n                });\n            }\n        });\n    }\n}\n\nfunction createDeviceSchemaRows(idsvc, idprop, idname, columnType, checked, disabled) {\n   var ret= `\u003cdiv class=\"list-group-item\"\u003e\n    \u003cdiv class=\"input-group pl-1 mb-1 input-group-addon\"\u003e\n  \u003cdiv class=\"input-group-prepend\"\u003e\n    \u003cdiv class=\"input-group-text\"\u003e\n      \u003cinput class=\"schema_input\" type=\"checkbox\" `+ checked + ` aria-label=\"Checkbox for following text input\"\u003e\n    \u003c/div\u003e\n  \u003c/div\u003e\n    \u003cinput type=\"text\" ` + disabled + ` class=\"form-control col-md-2 schema_input\" value=\"` + idsvc + `\" aria-label=\"...\" placeholder=\"idsvc\"\u003e\n    \u003cinput type=\"text\" ` + disabled + ` class=\"form-control col-md-5 schema_input\" value=\"` + idprop + `\" aria-label=\"...\" placeholder=\"idprop\"\u003e\n    \u003cinput type=\"text\" ` + disabled + ` class=\"form-control col-md-3 schema_input\" value=\"` + idname + `\" aria-label=\"...\" placeholder=\"name\"\u003e`;\n    if (disabled){\n        ret = ret + `\u003cinput type=\"text\" ` + disabled + ` class=\"form-control col-md-1 schema_input\" value=\"` + columnType + `\" aria-label=\"...\"\u003e`;\n    }else {\n        ret = ret+ `\u003cselect type=\"text\"  ` + disabled + ` class=\"form-control col-md-1 schema_input\" value=\"` + columnType + `\" aria-label=\"...\"\u003e\n        \u003coption value=\"ord\"\u003eord\u003c/option\u003e\n        \u003coption value=\"hex\"\u003ehex\u003c/option\u003e\n        \u003coption value=\"long\"\u003elong\u003c/option\u003e\n        \u003coption value=\"raw\"\u003eraw\u003c/option\u003e\n    \u003c/select\u003e`;\n    }\n    ret = ret + `\u003c/div\u003e\n    \u003c/div\u003e`;\n    \n;\n\n    return ret;\n}\n\nwindow.AddAtrributeToSchema = function () {\n    var childButton = createDeviceSchemaRows(\"\", \"\",\"\" , \"\", \"checked\", \"\");\n    $('#showDeviceColumns').append(childButton);\n    $('#UpdateDeviceTypeSchemaDiv').removeClass('d-block').addClass('d-none');\n}\n\nwindow.UpdateDeviceTypeSchema = function () {\n    debugger;\n    var deviceSchemaList = $('#div-for-attribute-list').find('.schema_input');\n    var schema = [];\n    for (var i = 0; i \u003c deviceSchemaList.length; i += 5) {\n        if (deviceSchemaList[i].checked) {\n            var svcVal = deviceSchemaList[i + 1].value;\n            var propVal = deviceSchemaList[i + 2].value;\n            var nameVal = deviceSchemaList[i + 3].value;\n            var typetag = deviceSchemaList[i + 4];\n            var typeVal = \"\";\n            if (typetag.nodeName ==\"SELECT\"){\n                typeVal = typetag.options[typetag.selectedIndex].value\n            }else {\n                typeVal = deviceSchemaList[i + 4].value\n            }\n            schema.push({\"type\":typeVal,\"svcid\":svcVal,\"propid\":propVal,\"name\":nameVal});\n        }\n    }\n    var selectedDeviceType = datasources.SelectedDeviceType.latestData();\n    datasources.devadmin_TypeUtil.sendData({\n        \"path\":\"update_device_type\",\n        \"deviceType\": selectedDeviceType,\n        \"schema\": schema\n    }).then(function (data) {\n        if (data.success) {\n            populateDeviceSchema()\n        }\n        else {\n            populateDeviceSchema()\n        }\n    });\n}\n\nwindow.RefreshDeviceTypeSchema = function () {\n    populateDeviceSchema();\n}\n\n$(\"#deleteDeviceTypeButton\").click(function() {\n    var selectedDeviceType = datasources.SelectedDeviceType.latestData();\n    datasources.devadmin_TypeUtil.sendData({\n        \"path\":\"delete_device_type\",\n        \"deviceType\": selectedDeviceType,\n        \n    }).then(function (data) {\n        window.RefreshDeviceTypeList();\n        $(\"#div-for-attribute-list\").empty();\n        if (data.success) {\n            // populateDeviceSchema()\n            \n        }\n        else {\n            // populateDeviceSchema()\n        }\n    });\n})"
+                            }
+                        }
+                    }
+                },
+                "tab": "3365198c-1afe-4fd7-92f5-c130d015ff09",
+                "type": "HTML_WIDGET_COMPONENT"
+            },
+            "e9da0355-4f74-40ba-a543-76938baeacb4": {
+                "externalScripts": [],
+                "id": "e9da0355-4f74-40ba-a543-76938baeacb4",
+                "props": {
+                    "html": {
+                        "dataType": "STATIC_DATA_TYPE",
+                        "force_data": [
+                            "STATIC_DATA_TYPE",
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "incoming_parser": {
+                            "isDebugOn": false,
+                            "value": "return this.datasource;"
+                        },
+                        "value": {
+                            "CSS": ".jumbotron {\n  height: 20px;\n}\n\n#device-form {\n  padding: 10px 10px;\n}\n\n.vertical-center \u003e .container {\n  max-width: 100%;\n  background-color: lightskyblue;\n  padding: 5px;\n  display: inline-block;\n  vertical-align: middle;  /* vertical alignment of the inline element */\n  font: 16px/1 \"Helvetica Neue\", Helvetica, Arial, sans-serif;        /* \u003c-- reset the font property */\n}\n\n#newDeviceSection{\n  padding:20px;\n}\n\n.new-device-input{\n  margin:8px;\n}",
+                            "HTML": "\u003cdiv class=\"vertical-center\"\u003e\n\t\u003cdiv class=\"row\" style=\"margin-bottom:8px\"\u003e\n\t\t\u003cdiv class=\"col-sm-9\"\u003e\n\t\t\t\u003cdiv\u003eSelect a device from the menu\u003c/div\u003e\n\t\t\u003c/div\u003e\n\t\t\u003cdiv class=\"col-sm-3\"\u003e\n\t\t\t\u003cdiv class=\"btn-group\" role=\"group\"\u003e\n\t\t\t\t\u003cbutton type=\"button\" id=\"refreshDeviceTypes\" class=\"btn btn-light\" onclick=\"RefreshDeviceTypeList()\"\u003e\u003ci class=\"fas fa-sync-alt\"\u003e\u003c/i\u003e\u003c/button\u003e\n\t\t\t\t\u003cbutton class=\"btn btn-success\" type=\"button\" id=\"addNewDeviceButton\"\u003e\u003ci class=\"fas fa-plus\"\u003e\u003c/i\u003e\u003c/button\u003e\n\t\t\t\u003c/div\u003e\n\t\t\u003c/div\u003e\n\t\u003c/div\u003e\n\t\u003cdiv id=\"newDeviceSection\"\u003e\n\t\t\u003cinput id=\"newDeviceName\" class=\"form-control new-device-input\" placeholder=\"Device Name\"\u003e\n\t\t\u003cselect id=\"newDeviceType\" class=\"form-control new-device-input\" \u003e\u003c/select\u003e\n\t\t\u003cinput id=\"newDeviceActiveKey\" class=\"form-control new-device-input\"  placeholder=\"Active Key\"\u003e\n\t\t\u003cbutton class=\"btn btn-primary\" type=\"button\" style=\"float:right\" id=\"createNewDeviceButton\"\u003eCreate\u003c/button\u003e\n\t\u003c/div\u003e\n  \t\u003cdiv id=\"deviceDetailsSection\"\u003e\n\t\t\u003cdiv\u003e\n\t\t\t\u003cdiv class=\"\" style=\"font-weight:bold\" id=\"deviceNameLabel\"\u003e\u003c/div\u003e\n\t\t\t\u003cbutton type=\"button\" id=\"deleteDeviceButton\" class=\"btn btn-danger\" style=\"float:right\" onclick=\"deleteDevice()\"\u003e\u003ci class=\"fas fa-trash-alt\"\u003e\u003c/i\u003e\u003c/button\u003e\n\t\t\t\u003cdiv class=\"\" style=\"font-weight:bold\" id=\"deviceTypeLabel\"\u003e\n\t\t\t\u003c/div\u003e\n\t\t\u003c/div\u003e\n\t\t\u003cdiv class=\"row\" id=\"device-form\"\u003e \n\t\t\t\u003cdiv class=\"col-md-12\" \u003e\n\t\t\t\t\u003cdiv class=\"containter\" \u003e\n\t\t\t\t\t\u003cdiv class=\"form-horizontal\" id=\"myForm\"\u003e\n\t\t\t\t\t\u003c/div\u003e\n\t\t\t\t\u003c/div\u003e\n\t\t\t\t\n\t\t\t\u003c/div\u003e\n\t\t\u003c/div\u003e\n\t\u003c/div\u003e\n\t\u003cdiv id=\"updateMessageLabel\"\u003e\u003c/div\u003e\n\u003c/div\u003e",
+                            "JavaScript": "//JavaScript\nwindow.currentPortalPage = \"/Home\";\n\n//setup functions\nvar addNewDeviceClick= function(){\n    $(\"#newDeviceSection\").show();\n    $(\"#deviceDetailsSection\").hide();\n    var deviceTypes = datasources.devadm_device_types.latestData();\n    for (var key in deviceTypes){\n        $('#newDeviceType').append($('\u003coption\u003e', {\n            value: deviceTypes[key].data.type,\n            text: deviceTypes[key].data.type\n        }));\n    }\n}\n\nvar createNewDeviceClick = function() {\n    console.log(\"creating device\")\n    var deviceName = $(\"#newDeviceName\").val();\n    var deviceType = $('#newDeviceType').val();//option[$('#newDeviceType').selectedIndex].value;\n    var activeKey = $(\"#newDeviceActiveKey\").val();\n    createDevice(deviceName, deviceType, activeKey); \n}\n\nvar deleteDeviceClick = function() {\n    console.log(\"deleting device\")\n    var currDevice = datasources.selectedDevice.latestData();\n    deleteDevice(currDevice.name); \n}\n//end setup functions\n\nconsole.log(\"subcribing to click events for device details\")\n$(\"#addNewDeviceButton\").click(addNewDeviceClick);\n    \n$(\"#createNewDeviceButton\").click(createNewDeviceClick);\n\n$(\"#deleteDeviceButton\").click(deleteDeviceClick);\n\n\n\n$(\"#newDeviceSection\").hide();\n$(\"#deviceDetailsSection\").hide()\n\ndatasources.selectedDevice.latestData.subscribe(function(){    \n    ShowDeviceInfo();\n})\n\n\nfunction ShowDeviceInfo() {\n    var currDevice = datasources.selectedDevice.latestData();\n    if (currDevice == null || Object.keys(currDevice).length === 0) {\n        return\n    }\n    $(\"#newDeviceSection\").hide();\n    $(\"#deviceDetailsSection\").show();\n    \n    $(\"#deviceNameLabel\").html(\"Name: \"+currDevice.name);\n    $(\"#deviceTypeLabel\").html(\"Type: \"+currDevice.type);\n    var promise = datasources.devadmTypeUtil.sendData({\n        \"path\":\"get_device_type\",\n        \"deviceType\": currDevice.type\n    });\n\n    var inputFieldType = {\n        \"boolean\": \"checkbox\",\n        \"string\": \"text\",\n        \"largestring\": \"textarea\"\n    }\n\n    promise.then(function (data) {\n        if (data.success) {\n            var schema = JSON.parse(data.results.result[0][\"schema\"]);\n            var formElements = [];\n            for (var key in schema) {\n                if (currDevice.hasOwnProperty(key)) {\n                    var label = key;\n                    formElements.push(createCustomFormElement(label, inputFieldType[schema[key]], currDevice[key]));\n                }\n            }\n            var buttonForUpdate = `\u003cdiv class=\"form-group\"\u003e\n        \u003cbutton id=\"\" type=\"submit\" onclick=\"updateDevice()\" class=\"btn btn-success\"\u003eUpdate\u003c/button\u003e\u003c/div\u003e`\n            $(\"#myForm\").empty().append(formElements.join('')).append(buttonForUpdate);\n        }\n        else{\n            //$(\"#myForm\").empty().append(`\u003cp\u003e`+data.results+` for `+datasources.selectedDevice.latestData().name +`\u003c/p\u003e`);\n        }\n    });\n}\n\nfunction createCustomFormElement(label, inputType, initialValue) {\n    var checked = \"\";\n    var formLabel = toTitleCase(label);\n    var inputTag = `\u003cinput id=\"` + label + `\" class=\"form-control device-info\" ` + checked + ` type = \"` + inputType + `\" name = \"` + label + `\" value = \"` + initialValue + `\" /\u003e`;\n    if (typeof (initialValue) === \"boolean\") {\n        checked = toString(initialValue);\n    }\n    else if (inputType === \"largestring\") {\n        inputTag = `\u003ctextarea class=\"form-control\" type=\"textarea\" id=\"` + label + `\" name=\"` + formLabel + `\"\n\t\t\t\t\t\t\t \" rows=\"5\"\u003e`+ initialValue + `\u003c/textarea\u003e`\n    }\n    return `\u003cdiv class=\"form-group div-` + label + `\"\u003e\n\t\t\t\t\t\t\u003clabel class=\"col-sm-3 row\"\u003e`+ formLabel + ` \u003c/label\u003e\n\t\t\t\t\t\t\u003cdiv class=\"col-sm-8 row\"\u003e\n\t\t\t\t\t\t\t`+ inputTag + `\n\t\t\t\t\t\t\u003c/div\u003e\n                    \u003c/div\u003e`;\n}\n\nfunction isFormValid() {\n    return true;\n}\n\n\nwindow.updateDevice = function () {\n    var currDevice = datasources.selectedDevice.latestData();\n    if (isFormValid()) {\n        $('.device-info').each(function (i, obj) {\n            currDevice[obj.name] = obj.value;\n        });\n        $(\".div-UpdateResponse\").remove();\n        datasources.devadmUpdateDevice.sendData({\n            \"deviceInfo\": currDevice,\n            path:\"update_device\"\n        }).then(function (data) {\n            var value = \"\";\n            if (data.success) {\n                value = \"Update success\";\n            }\n            else {\n                var err = JSON.parse(data.results).error;\n                delete err.line;\n                delete err.lowLevelError;\n                value = JSON.stringify(err, undefined, 4);\n            }\n            $(\"#updateMessageLabel\").html(value);\n\n        });\n    }\n    else {\n        alert('Invalid Device Data');\n    }\n\n}\nfunction deleteDevice(deviceName) {\n     datasources.devadmUpdateDevice.sendData({\n        \"name\": deviceName,\n        path:\"delete_device\"\n    }).then(function (data) {\n        var value = \"\";\n        if (data.success) {\n            $(\"#newDeviceSection\").hide();\n            $(\"#deviceDetailsSection\").hide();\n            value = \"Delete success\";\n        }\n        else {\n            value = \"Delete failed\";\n        }\n        datasources.DeviceList.sendData();\n        $(\"#updateMessageLabel\").html(value);\n    });\n}\n\nfunction createDevice(deviceName, deviceType, activeKey) {\n    datasources.devadmUpdateDevice.sendData({\n        \"name\": deviceName,\n        \"path\":\"create_device\",\n        \"type\":deviceType,\n        \"active_key\":activeKey\n    }).then(function (data) {\n        var value = \"\";\n        $(\"#newDeviceSection\").hide();\n        $(\"#deviceDetailsSection\").hide();\n        if (data.success) {\n            value = \"Create success\";\n        }\n        else {\n            value = \"Create failed\";\n        }\n        datasources.DeviceList.sendData();\n        $(\"#updateMessageLabel\").html(value);\n    });\n}\n\nfunction toTitleCase(str) {\n    return str.replace(/[-_]/g, ' ').replace(/\\w\\S*/g, function (txt) { return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase(); });\n}"
+                        }
+                    }
+                },
+                "tab": "5d55ec90-14b8-44f9-b4d9-e9d87335bba4",
+                "type": "HTML_WIDGET_COMPONENT"
+            },
+            "flyoutTitle": {
+                "externalScripts": [],
+                "id": "flyoutTitle",
+                "props": {
+                    "HAS_UNIQUE_STYLE": true,
+                    "fontColor": "#fff",
+                    "fontFamily": "Helvetica",
+                    "fontSize": 30,
+                    "textContent": {
+                        "dataType": "CALCULATED_DATA_TYPE",
+                        "value": "return \"\""
+                    }
+                },
+                "type": "TEXT_WIDGET_COMPONENT"
+            },
+            "title": {
+                "externalScripts": [],
+                "id": "title",
+                "props": {
+                    "HAS_UNIQUE_STYLE": true,
+                    "fontColor": "#fff",
+                    "fontFamily": "Trebuchet MS",
+                    "fontSize": 18,
+                    "textContent": {
+                        "dataType": "CALCULATED_DATA_TYPE",
+                        "value": "return \"Device Administrator\""
+                    }
+                },
+                "tab": "HEADER",
+                "type": "TEXT_WIDGET_COMPONENT"
+            }
+        }
+    },
+    "description": "This portal provides an interface for administrating devices as end users",
+    "last_updated": "25 Jul 18 16:29 UTC",
+    "name": "devadm Device Administrator",
+    "namespace": "",
+    "system_key": "aab189b30bcaf7b4fdd991aff210",
+    "type": "edge_monitoring_v2"
+}
