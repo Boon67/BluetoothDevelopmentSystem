@@ -1,0 +1,11 @@
+{
+    "allow_certificate_auth": false,
+    "allow_key_auth": true,
+    "certificate": "",
+    "description": "Default BLE Adapter",
+    "enabled": true,
+    "has_keys": false,
+    "name": "bleAdapter",
+    "state": "",
+    "type": "BLE Adapter"
+}
