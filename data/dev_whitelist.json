@@ -1,0 +1,49 @@
+{
+    "app_id": "aab189b30bcaf7b4fdd991aff210",
+    "collection_id": "bec4c9b40bdc91b1a9dbb6ffa79301",
+    "items": [
+        {
+            "device_id": "00:0b:57:51:c9:50",
+            "devicetype": "5a6e7411-d364-45fd-95be-cd67fdbfcc9a",
+            "item_id": "4cb8750c-c7e3-4aa0-b0a4-737ede7215c9"
+        },
+        {
+            "device_id": "00:0b:57:4e:dc:8b",
+            "devicetype": "5a6e7411-d364-45fd-95be-cd67fdbfcc9a",
+            "item_id": "7fff319f-90f9-4597-b329-7ab255056d3a"
+        },
+        {
+            "device_id": "00:0b:57:1a:7a:5a",
+            "devicetype": "5a6e7411-d364-45fd-95be-cd67fdbfcc9a",
+            "item_id": "a2222316-3733-468a-b1ab-584061aaac83"
+        },
+        {
+            "device_id": "00:0b:57:1a:8f:de",
+            "devicetype": "5a6e7411-d364-45fd-95be-cd67fdbfcc9a",
+            "item_id": "f636b811-f088-4ff3-8c1c-09ac6e4b6b87"
+        }
+    ],
+    "name": "dev_whitelist",
+    "permissions": {
+        "Anonymous": 1,
+        "Authenticated": 1,
+        "bleAdapter Role": 1
+    },
+    "schema": [
+        {
+            "ColumnName": "item_id",
+            "ColumnType": "uuid",
+            "PK": true
+        },
+        {
+            "ColumnName": "device_id",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "devicetype",
+            "ColumnType": "uuid",
+            "PK": false
+        }
+    ]
+}
