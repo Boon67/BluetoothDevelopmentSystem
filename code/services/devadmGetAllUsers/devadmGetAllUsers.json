@@ -1,0 +1,16 @@
+{
+    "auto_restart": false,
+    "concurrency": 0,
+    "current_version": 1,
+    "dependencies": "clearblade",
+    "execution_timeout": 600,
+    "logging_enabled": "false",
+    "name": "devadmGetAllUsers",
+    "params": [],
+    "permissions": {
+        "devadm PortalEditor": 1,
+        "devadm User": 1
+    },
+    "run_user": "",
+    "source": "devadmGetAllUsers.js"
+}
