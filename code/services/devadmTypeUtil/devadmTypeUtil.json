@@ -1,0 +1,16 @@
+{
+    "auto_restart": false,
+    "concurrency": 0,
+    "current_version": 2,
+    "dependencies": "clearblade,log,devadm_constants,devadm_util_lib,http",
+    "execution_timeout": 600,
+    "logging_enabled": "true",
+    "name": "devadmTypeUtil",
+    "params": [],
+    "permissions": {
+        "devadm PortalEditor": 1,
+        "devadm User": 1
+    },
+    "run_user": "",
+    "source": "devadmTypeUtil.js"
+}
