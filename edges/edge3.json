@@ -1,0 +1,13 @@
+{
+    "description": "ClearBlade Edge 3",
+    "last_seen_version": "4.1-rc7",
+    "location": null,
+    "mac_address": null,
+    "name": "edge3",
+    "policy_name": null,
+    "resolver_func": null,
+    "sync_edge_tables": null,
+    "system_key": "aab189b30bcaf7b4fdd991aff210",
+    "system_secret": "AAB189B30BD0F8C5E98DD3CBF456",
+    "token": "7I6FfDt7ca250cIU61Qk44726Tv2p79"
+}
