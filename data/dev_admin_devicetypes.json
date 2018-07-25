@@ -1,0 +1,55 @@
+{
+    "app_id": "aab189b30bcaf7b4fdd991aff210",
+    "collection_id": "aa83bfb40b80e9b3be87c4b5ca41",
+    "items": [
+        {
+            "item_id": "5a6e7411-d364-45fd-95be-cd67fdbfcc9a",
+            "schema": "[{\"name\":\"Manufacturer\",\"propid\":\"2a29\",\"svcid\":\"180A\",\"type\":\"raw\"},{\"name\":\"Model\",\"propid\":\"2a24\",\"svcid\":\"180A\",\"type\":\"raw\"},{\"name\":\"Hardware\",\"propid\":\"2a27\",\"svcid\":\"180A\",\"type\":\"raw\"},{\"name\":\"Firmware\",\"propid\":\"2a26\",\"svcid\":\"180A\",\"type\":\"raw\"},{\"name\":\"Battery\",\"propid\":\"2a19\",\"svcid\":\"180f\",\"type\":\"ord\"},{\"name\":\"Humidity\",\"propid\":\"2a6f\",\"svcid\":\"181a\",\"type\":\"hex\"},{\"name\":\"Temperature\",\"propid\":\"2a6e\",\"svcid\":\"181a\",\"type\":\"hex\"},{\"name\":\"Pressure\",\"propid\":\"2a6d\",\"svcid\":\"181a\",\"type\":\"long\"},{\"name\":\"uvIndex\",\"propid\":\"2a76\",\"svcid\":\"181a\",\"type\":\"ord\"},{\"name\":\"AmbientLight\",\"propid\":\"c8546913-bfd9-45eb-8dde-9f8754f4a32e\",\"svcid\":\"181a\",\"type\":\"long\"},{\"name\":\"co2\",\"propid\":\"efd658ae-c401-ef33-76e7-91b00019103b\",\"svcid\":\"181a\",\"type\":\"hex\"},{\"name\":\"sound\",\"propid\":\"c8546913-bf02-45eb-8dde-9f8754f4a32e\",\"svcid\":\"181a\",\"type\":\"hex\"},{\"name\":\"voc\",\"propid\":\"efd658ae-c402-ef33-76e7-91b00019103b\",\"svcid\":\"181a\",\"type\":\"long\"}]",
+            "type": "ThunderBoard v1"
+        },
+        {
+            "item_id": "7d0c8a4c-ecad-4c43-af03-b2997947a0b2",
+            "schema": "[]",
+            "type": "BD-Zigbee Device"
+        },
+        {
+            "item_id": "8e4625a4-861b-4929-8cb4-5c058fc8c3bb",
+            "schema": "[]",
+            "type": "BD-BLE 5.0 Device"
+        },
+        {
+            "item_id": "a8d8b6e8-cd88-4079-8b7f-2a7db46bac77",
+            "schema": "",
+            "type": " Dark Goat nRF52832"
+        },
+        {
+            "item_id": "f78625f2-7c3c-4b66-89e8-f02ef2ee2c3f",
+            "schema": null,
+            "type": "BD-Wifi Device"
+        }
+    ],
+    "name": "dev_admin_devicetypes",
+    "permissions": {
+        "Administrator": 0,
+        "bleAdapter Role": 1,
+        "devadm PortalEditor": 15,
+        "devadm User": 15
+    },
+    "schema": [
+        {
+            "ColumnName": "item_id",
+            "ColumnType": "uuid",
+            "PK": true
+        },
+        {
+            "ColumnName": "type",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "schema",
+            "ColumnType": "string",
+            "PK": false
+        }
+    ]
+}
