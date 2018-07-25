@@ -1,0 +1,76 @@
+{
+    "Description": "Default role that is applied to all authenticated users",
+    "ID": "Authenticated",
+    "Name": "Authenticated",
+    "Permissions": {
+        "AllCollections": {
+            "Level": 0
+        },
+        "AllServices": {
+            "Level": 0
+        },
+        "CodeServices": [
+            {
+                "Level": 1,
+                "Name": "device_data",
+                "SystemKey": "aab189b30bcaf7b4fdd991aff210"
+            },
+            {
+                "Level": 1,
+                "Name": "logBLEHistory",
+                "SystemKey": "aab189b30bcaf7b4fdd991aff210"
+            }
+        ],
+        "Collections": [
+            {
+                "Columns": [],
+                "ID": "bec4c9b40bdc91b1a9dbb6ffa79301",
+                "Items": [],
+                "Level": 1,
+                "Name": "dev_whitelist"
+            },
+            {
+                "Columns": [],
+                "ID": "96c2a5b40baa90a3d2d2b690bb2c",
+                "Items": [],
+                "Level": 1,
+                "Name": "device_data"
+            }
+        ],
+        "Deployments": {
+            "Level": 0
+        },
+        "DevicesList": {
+            "Level": 0
+        },
+        "EdgesList": {
+            "Level": 0
+        },
+        "MsgHistory": {
+            "Level": 0
+        },
+        "Portals": [
+            {
+                "Level": 1,
+                "Name": "Portal",
+                "SystemKey": "aab189b30bcaf7b4fdd991aff210"
+            }
+        ],
+        "Push": {
+            "Level": 0
+        },
+        "Roles": {
+            "Level": 0
+        },
+        "Timers": {
+            "Level": 0
+        },
+        "Topics": [],
+        "Triggers": {
+            "Level": 0
+        },
+        "UsersList": {
+            "Level": 0
+        }
+    }
+}
